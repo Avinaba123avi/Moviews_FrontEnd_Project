@@ -1,0 +1,55 @@
+:root {
+  --main-color: #ffb43a;
+  --hover-color: hsl(37, 94%, 57%);
+  --body-color: #1e1e2a;
+  --container-color: #2d2e37;
+  --text-color: #fcfeff;
+}
+
+body {
+  background-color: var(--body-color);
+  color: var(--text-color);
+}
+.form-group label {
+      color: var(--text-color);
+    }
+    
+.bg-body {
+  /*background-color: var(--body-color);*/
+  display: flex;
+  align-items: center;
+  /*border: 2px solid red;*/
+}
+
+.bg-container {
+  background-color: var(--container-color);
+  width: 50%;
+  /*border: 2px solid white;*/
+}
+.btn-group{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	/*border: 2px solid red;*/
+	flex-direction: row;
+}
+.btn-login-color {
+  background-color: var(--main-color);
+  color: var(--text-color);
+  /*width: 25%;*/
+  border: none;
+}
+
+.btn-main-color:hover {
+  background-color: var(--hover-color);
+}
+.btn-secondary{
+	width: 100%;
+}
+.emailError, .passwordError{
+	color: red;
+	display: none;
+}
+.eye-button{
+  background-color: white;
+}
